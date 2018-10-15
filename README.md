@@ -1,5 +1,7 @@
-# Play-With-Channel
-通过各种Demo来研究Channel的机制
+# Play-With-Golang
+通过各种Demo来研究Golang
+
+## Channel
 
 1. make(chan int) 与 make(chan int, 1) 的区别
 2. 单向 chan
