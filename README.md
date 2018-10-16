@@ -7,3 +7,11 @@
 2. 单向 chan
 3. cap与len的区别
 4. 
+
+## Map
+1. 从map中取某项
+```
+if val, ok := map["name"]; ok {
+
+}
+```
