@@ -15,3 +15,24 @@ if val, ok := map["name"]; ok {
 
 }
 ```
+## enum
+```
+type OperationType string
+
+const {
+    Play   OperationType = "play"
+    Puase  OperationType = "pause"
+    Resume OperationType = "resume"
+    Stop   OperationType = "stop"
+}
+
+func IsValidOperationType(s string) (OperationType, bool) {
+    switch s {
+    case string(Play), string(Pause), string(Resume), string(Stop):
+        return Operation(s), true
+    }
+      
+    return Play, false
+}
+
+```
