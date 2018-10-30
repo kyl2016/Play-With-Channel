@@ -7,7 +7,7 @@
 2. 单向 chan
 3. cap与len的区别
 4. 如何判断从 channel 读取数据是否超时？示例：[channel_timeout](./channel_timeout.go)
-5. 如果判断 channel 是否已满，不能在向其发送数据？示例：[channel_can_write](./channel_can_write.go)
+5. 如果判断 channel 是否已满，不能在向其发送数据？示例：[channel_is_empty_or_full](./channel_is_empty_or_full.go)
 
 ## Map
 1. 从map中取某项
