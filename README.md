@@ -8,7 +8,12 @@
 3. cap与len的区别
 4. 如何判断从 channel 读取数据是否超时？示例：[channel_timeout](./channel_timeout.go)
 5. 如果判断 channel 是否已满，不能在向其发送数据？示例：[channel_is_empty_or_full](./channel_is_empty_or_full.go)
-
+6. 为了避免读到的是已关闭的 channel 中的数据，建议使用：
+```
+if v, ok := ch; ok {
+    // ...
+}
+```
 ## Map
 1. 从map中取某项
 ```
