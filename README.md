@@ -1,9 +1,30 @@
 # Play-With-Golang
 通过各种Demo来研究Golang
 
+## goroutines
+
+to execute tasks independently, potentially in parallel
+
 ## Channel
 
-1. make(chan int) 与 make(chan int, 1) 的区别
+for communication, synchronization between goroutines.
+
+1. 长度为0和大于0的区别
+
+buffered channel
+```
+ch := make(chan int, 3) // Allocates an hchan struct on the heap, returns a pointer to it.
+```
+- goroutine-safe
+- stores up to capacity elements, and provides FIFO semantics
+- sends values between goroutines
+- can cause them to block, unblock
+
+unbuffered channel
+```
+ch := make(chan int)
+```
+
 2. 单向 chan
 3. cap与len的区别
 4. 如何判断从 channel 读取数据是否超时？示例：[channel_timeout](./channel_timeout.go)
