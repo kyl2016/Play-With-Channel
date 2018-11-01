@@ -68,7 +68,8 @@ func IsValidOperationType(s string) (OperationType, bool) {
 - select 就是监听IO操作，只能用于 channel 的发送和接收，如果多个 case 都满足条件，则用**伪随机（pseudo-random choice）算法**选择一个执行。示例：[channel_random_select_case](channel_random_select_case.go)
 - switch 可为各种类型进行分支操作，通过i.(type)可以为接口类型进行分支判断。分支是**顺序执行**的，这和 select 不同。
 
-
+## json
+[convert json to struct](json_to_struct.go)
 
 
 
