@@ -71,5 +71,9 @@ func IsValidOperationType(s string) (OperationType, bool) {
 ## json
 [convert json to struct](json_to_struct.go)
 
+## for range
+using **value semantics**
+The for range is iterating over its **own copy** of the array/map/slice.
+When ranging over a slice using the value semantics form, a copy of the slice header is taken.
 
 
