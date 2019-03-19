@@ -72,8 +72,11 @@ func IsValidOperationType(s string) (OperationType, bool) {
 [convert json to struct](json_to_struct.go)
 
 ## for range
-using **value semantics**
-The for range is iterating over its **own copy** of the array/map/slice.
-When ranging over a slice using the value semantics form, a copy of the slice header is taken.
 
+for i := range a {
+    fmt.Println(i)
+}
 
+1. Loop variables are reused and assigned to each iteration.
+2. The range expression gets evaluated once before the loop starts by assigning to a variable.
+3. You can delete or add values to a map while iterating. Add may or may not be visible in the loop.
