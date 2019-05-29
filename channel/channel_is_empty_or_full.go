@@ -1,6 +1,6 @@
 package main
 
-import "github.com/Sirupsen/logrus"
+import "github.com/sirupsen/logrus"
 
 func main() {
 	ch := make(chan int, 1)
@@ -15,11 +15,16 @@ func main() {
 
 	for {
 		select {
-		case i := <-ch:
-			logrus.Info("Read ", i)
+		case i, ok := <-ch:
+			logrus.Info("Read ", i, ok)
+
+			if !ok {
+				return
+			}
 		default:
 			logrus.Info("Channel is empty.")
-			return
+
+			close(ch)
 		}
 	}
 }

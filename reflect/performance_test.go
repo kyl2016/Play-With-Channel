@@ -1,13 +1,9 @@
-package main
+package performance
 
 import (
 	"sync/atomic"
 	"testing"
 )
-
-func main() {
-	BenchmarkInterface(&testing.B{N: 10000})
-}
 
 func sumI(nums ...interface{}) interface{} {
 	var s uint64

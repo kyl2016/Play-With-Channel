@@ -9,15 +9,15 @@ func main() {
 	ch := make(chan int)
 	timeout := make(chan bool, 1)
 
-	go func(){
+	go func() {
 		time.Sleep(3 * time.Second)
 		timeout <- true
 	}()
 
 	select {
-	case i := <- ch:
+	case i := <-ch:
 		logrus.Info(i)
-	case <- timeout:
+	case <-timeout:
 		logrus.Info("timeout")
 	}
 }

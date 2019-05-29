@@ -12,3 +12,7 @@ go func() {
 // ...
 }()
 ```
+
+One application of recover is to shut down a failing goroutine inside a server without killing the other executing goroutines.
+In this [example](oneGoroutine.go) , if do(work) panics, the result will be logged and the goroutine will exit cleanly without disturbing the others.
+

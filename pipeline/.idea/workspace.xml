@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3113185c-0411-4402-b22d-f12edbba8b57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../build/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/main1.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build/main2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../container/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../container/heap/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../container/list/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../container/ring/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../defer/inRange.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../inheritance/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../link/business/business.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../link/business/i.s" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../link/linker/link.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../link/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net/dail.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../net/os.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../nil/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/inheri_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/framework/model.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v0.3/pipeline.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v0.3/source.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v0.3/stage.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/v0.3/step.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugin/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../plugin/pkg/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sync/condition/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sync/condition/main2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sync/pool/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sync/rwmutex/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../test/t_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../channel/channel_is_empty_or_full.go" beforeDir="false" afterPath="$PROJECT_DIR$/../channel/channel_is_empty_or_full.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../channel/channel_timeout.go" beforeDir="false" afterPath="$PROJECT_DIR$/../channel/channel_timeout.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../error/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../error/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gRPC/encode/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../gRPC/encode/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gRPC/helloWorld/greeter_client/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../gRPC/helloWorld/greeter_client/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gRPC/helloWorld/greeter_server/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../gRPC/helloWorld/greeter_server/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gRPC/helloWorld/helloWorld/helloWorld.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../gRPC/helloWorld/helloWorld/helloWorld.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gRPC/pb3/searchRequest.proto" beforeDir="false" afterPath="$PROJECT_DIR$/../gRPC/pb3/searchRequest.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gRPC/test/go_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../gRPC/test/go_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gdb/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../gdb/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gdb/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../gdb/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface/inherent/base.go" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/inherent/base.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface/inherent/sub.go" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/inherent/sub.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../interface/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../interface/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../map/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../map/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../map/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../map/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../mapReduce/mapReduce.go" beforeDir="false" afterPath="$PROJECT_DIR$/../mapReduce/mapReduce.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../method/sample.go" beforeDir="false" afterPath="$PROJECT_DIR$/../method/sample.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../panic/block.go" beforeDir="false" afterPath="$PROJECT_DIR$/../panic/block.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../panic/oneGoroutine.go" beforeDir="false" afterPath="$PROJECT_DIR$/../panic/oneGoroutine.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../panic/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../panic/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fanOut_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/fanOut_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/squaringNumbers.go" beforeDir="false" afterPath="$PROJECT_DIR$/squaringNumbers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v0.1/example/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/v0.1/example/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v0.1/pipe/pipeline.go" beforeDir="false" afterPath="$PROJECT_DIR$/v0.1/pipe/pipeline.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v0.1/pipe/stage.go" beforeDir="false" afterPath="$PROJECT_DIR$/v0.1/pipe/stage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v0.1/pipe/step.go" beforeDir="false" afterPath="$PROJECT_DIR$/v0.1/pipe/step.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v0.2/model/constants.go" beforeDir="false" afterPath="$PROJECT_DIR$/v0.2/model/constants.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v0.2/pipe/createExtractTask.go" beforeDir="false" afterPath="$PROJECT_DIR$/v0.2/pipe/createExtractTask.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v0.2/pipe/execTaskStep.go" beforeDir="false" afterPath="$PROJECT_DIR$/v0.2/pipe/execTaskStep.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v0.2/pipe/sourceFileStep.go" beforeDir="false" afterPath="$PROJECT_DIR$/v0.2/pipe/sourceFileStep.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v0.2/pipe/stage.go" beforeDir="false" afterPath="$PROJECT_DIR$/v0.2/pipe/stage.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/v0.2/pipe/step.go" beforeDir="false" afterPath="$PROJECT_DIR$/v0.2/pipe/step.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../print/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../print/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../profiling/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../profiling/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../profiling/main2.go" beforeDir="false" afterPath="$PROJECT_DIR$/../profiling/main2.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../profiling/main3.go" beforeDir="false" afterPath="$PROJECT_DIR$/../profiling/main3.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../profiling/pprof.go" beforeDir="false" afterPath="$PROJECT_DIR$/../profiling/pprof.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../profiling/profile.go" beforeDir="false" afterPath="$PROJECT_DIR$/../profiling/profile.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reflect/performance2_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../reflect/performance2_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reflect/performance_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../reflect/performance_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../reflect/sample_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/../reflect/sample_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slice/append.go" beforeDir="false" afterPath="$PROJECT_DIR$/../slice/append.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slice/asPara.go" beforeDir="false" afterPath="$PROJECT_DIR$/../slice/asPara.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../slice/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/../slice/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../string/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../string/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../text/encoding.go" beforeDir="false" afterPath="$PROJECT_DIR$/../text/encoding.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../time/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../time/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../time/ticker.go" beforeDir="false" afterPath="$PROJECT_DIR$/../time/ticker.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../webServer/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../webServer/main.go" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/sinkStep.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/sourceStep.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="17" selection-start-column="17" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/step.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/model.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/framework/inheri_test.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+              <folding>
+                <element signature="e#19#47#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/runtime/panic.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8636">
+              <caret line="512" selection-start-line="512" selection-end-line="512" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/runtime/iface.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="4131">
+              <caret line="247" selection-start-line="247" selection-end-line="247" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/testing/testing.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="13175">
+              <caret line="791" selection-start-line="791" selection-end-line="791" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file:///usr/local/go/src/runtime/asm_amd64.s">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="8857">
+              <caret line="521" selection-start-line="521" selection-end-line="521" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/util.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
+  </component>
+  <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/framework/pipeline.go" />
+        <option value="$PROJECT_DIR$/framework/sinkStep.go" />
+        <option value="$PROJECT_DIR$/framework/sourceStep.go" />
+        <option value="$PROJECT_DIR$/framework/step.go" />
+        <option value="$PROJECT_DIR$/framework/util.go" />
+        <option value="$PROJECT_DIR$/framework/model.go" />
+        <option value="$PROJECT_DIR$/framework/inheri_test.go" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-62" />
+    <option name="y" value="-4" />
+    <option name="width" value="1916" />
+    <option name="height" value="1068" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="pipeline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pipeline" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="go.gopath.indexing.explicitly.defined" value="true" />
+    <property name="go.sdk.automatically.set" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/framework" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="TestT in github.com/kyl2016/Play-With-Golang/pipeline/framework" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="pipeline" />
+      <working_directory value="$PROJECT_DIR$/framework" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/kyl2016/Play-With-Golang/pipeline/framework" />
+      <directory value="$PROJECT_DIR$/" />
+      <filePath value="$PROJECT_DIR$/" />
+      <pattern value="^TestT$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Test.TestT in github.com/kyl2016/Play-With-Golang/pipeline/framework" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestT_in_github_com_kyl2016_Play-With-Golang_pipeline_framework - 2019.05.14 at 15h 29m 45s.xml">
+      <configuration name="TestT in github.com/kyl2016/Play-With-Golang/pipeline/framework" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="TestT_in_github_com_kyl2016_Play-With-Golang_pipeline_framework - 2019.05.16 at 16h 56m 06s.xml">
+      <configuration name="TestT in github.com/kyl2016/Play-With-Golang/pipeline/framework" configurationId="GoTestRunConfiguration" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17342582" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.49248928" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.33261803" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/framework/inheri_test.go</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/framework/inheri_test.go</url>
+          <line>16</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/v0.1/pipe/step.go">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v0.1/pipe/pipeline.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="27" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v0.1/pipe/stage.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="21" column="7" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/v0.1/example/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-279">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/pipeline.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/sinkStep.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/sourceStep.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="17" selection-start-column="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/step.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="22" selection-start-line="31" selection-start-column="22" selection-end-line="31" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/model.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/panic.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8636">
+          <caret line="512" selection-start-line="512" selection-end-line="512" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/iface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4131">
+          <caret line="247" selection-start-line="247" selection-end-line="247" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/testing/testing.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13175">
+          <caret line="791" selection-start-line="791" selection-end-line="791" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/go/src/runtime/asm_amd64.s">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8857">
+          <caret line="521" selection-start-line="521" selection-end-line="521" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/util.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/inheri_test.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="26" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+          <folding>
+            <element signature="e#19#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

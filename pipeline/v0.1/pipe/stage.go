@@ -2,7 +2,7 @@ package pipe
 
 import (
 	"fmt"
-	"github.com/kyl2016/Play-With-Golang/pipeline/pipe/model"
+	"github.com/kyl2016/Play-With-Golang/pipeline/v0.1/pipe/model"
 	"sync"
 )
 
