@@ -1,7 +1,12 @@
 package main
 
-import "net"
+import (
+	"net"
+)
 
 func main() {
+
 	net.Dial("tcp", "localhost")
+
+	//syscall.Socket()
 }

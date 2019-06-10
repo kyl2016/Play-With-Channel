@@ -19,6 +19,8 @@ func main() {
 	//}()
 
 	time.Sleep(500 * time.Millisecond)
+
+	fmt.Println("finished")
 }
 
 func server(workChan <-chan string) {

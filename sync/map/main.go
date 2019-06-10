@@ -1,7 +1,7 @@
 package main
 
-import "os"
+import "sync"
 
 func main() {
-	os.Pipe()
+	sync.Map{}
 }

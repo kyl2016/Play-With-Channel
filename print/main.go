@@ -1,13 +1,23 @@
 package main
 
 import (
+	"errors"
 	"fmt"
-	"net"
 	"os"
 	"time"
 )
 
 func main() {
+	fs := []float64{9.90, 21.1, 12.23423423, 234.23423423, 42332.12312332432213, 4345225442542452332.12312332432213156988992}
+
+	for _, f := range fs {
+		g := fmt.Sprintf("%g", f)
+		ff := fmt.Sprintf("%f", f)
+		F := fmt.Sprintf("%F", f)
+		G := fmt.Sprintf("%G", f)
+		fmt.Printf("g:%30s f:%30s F:%30s G:%30s\n", g, ff, F, G)
+	}
+	//var f float64 = 21.13342424
 	fmt.Printf("Hello %d\n", 23)
 	fmt.Println(os.Stdout, "Hello ", 23, "\n")
 	fmt.Println(os.Stderr, "Hello ", 23, "\n")
@@ -33,6 +43,9 @@ func main() {
 	fmt.Printf("%s\n", []byte("abc"))
 
 	fmt.Printf("%v\n", time.Now())
-net.Error()r
+
 	fmt.Println(fmt.Errorf("error info is %s", "id must be int type"))
+
+	err := errors.New("error info")
+	fmt.Println(fmt.Sprintf("couldn't get a downloader: %s", err))
 }
