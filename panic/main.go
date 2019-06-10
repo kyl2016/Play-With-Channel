@@ -29,6 +29,6 @@ func main() {
 		}()
 	}()
 
-	time.Sleep(2 * time.Second)
+	time.Sleep(1 * time.Second)
 	fmt.Println("end of main function")
 }
