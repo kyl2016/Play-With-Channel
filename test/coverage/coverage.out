@@ -1,0 +1,8 @@
+mode: set
+github.com/kyl2016/Play-With-Golang/test/coverage/size.go:3.25,4.9 1 1
+github.com/kyl2016/Play-With-Golang/test/coverage/size.go:16.2,16.19 1 0
+github.com/kyl2016/Play-With-Golang/test/coverage/size.go:5.13,6.20 1 1
+github.com/kyl2016/Play-With-Golang/test/coverage/size.go:7.14,8.16 1 0
+github.com/kyl2016/Play-With-Golang/test/coverage/size.go:9.14,10.17 1 1
+github.com/kyl2016/Play-With-Golang/test/coverage/size.go:11.15,12.15 1 0
+github.com/kyl2016/Play-With-Golang/test/coverage/size.go:13.16,14.16 1 0

@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"log"
 	"os"
+	"path/filepath"
 	"runtime/pprof"
 	"time"
 )
@@ -14,13 +15,12 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
+	fullPath, err := filepath.Abs("cpu_profile")
+	fmt.Println(fullPath)
+
 	pprof.StartCPUProfile(cpuf)
 	defer pprof.StopCPUProfile()
 
-	ctx, _ := context.WithTimeout(context.Background(), time.Second*5)
-	test(ctx)
-
-	time.Sleep(time.Second * 3)
 	memf, err := os.Create("mem_profile")
 	if err != nil {
 		log.Fatal("could not create memory profile:", err)
@@ -29,9 +29,15 @@ func main() {
 		log.Fatal("could not write memory profile:", err)
 	}
 	memf.Close()
+
+
+	ctx, _ := context.WithTimeout(context.Background(), time.Second*5)
+	test22(ctx)
+
+	time.Sleep(time.Second * 3)
 }
 
-func test(c context.Context) {
+func test22(c context.Context) {
 	i := 0
 	j := 0
 	go func() {

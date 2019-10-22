@@ -2,12 +2,13 @@ package main
 
 import (
 	"flag"
+	"fmt"
 	"log"
 	"os"
 	"runtime/pprof"
 )
 
-var cpuprofile = flag.String("cpuprofile", "", "write cpu profile to file")
+var cpuprofile = flag.String("cpuprofile", "cpu_profile", "write cpu profile to file")
 
 func main() {
 	flag.Parse()
@@ -18,5 +19,7 @@ func main() {
 		}
 		pprof.StartCPUProfile(f)
 		defer pprof.StopCPUProfile()
+	} else {
+		fmt.Println("cpuprofile is null")
 	}
 }
