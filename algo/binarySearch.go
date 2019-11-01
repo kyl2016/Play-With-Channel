@@ -1,0 +1,6 @@
+package algo
+
+import(
+	"errors"
+)
+
