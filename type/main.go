@@ -3,10 +3,14 @@ package main
 import (
 	"fmt"
 	"reflect"
-	"sync"
 )
 
 func main() {
+	var i interface{} = 1
+	fmt.Println("1 type is", reflect.TypeOf(i).Name())
+	fmt.Println(reflect.Int)
+	fmt.Println(reflect.Int.String())
+
 	printType(map[interface{}]interface{}{})
 	printType([]int{})
 	printType(func() {})
@@ -23,12 +27,9 @@ func main() {
 	ch4 := make(chan string)
 	printType(ch4)
 	fmt.Println(reflect.TypeOf(ch1) == reflect.TypeOf(ch4))
-
-	sync.Map{}
 }
 
 func printType(m interface{}) {
 	t := reflect.TypeOf(m)
 	fmt.Println(t, "Comparable:", t.Comparable())
-
 }

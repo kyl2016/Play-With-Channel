@@ -1,0 +1,6 @@
+{
+	"ImportPath": "github.com/kyl2016/Play-With-Golang/pkg/etcd",
+	"GoVersion": "go1.14",
+	"GodepVersion": "v80",
+	"Deps": []
+}

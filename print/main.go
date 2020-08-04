@@ -8,6 +8,8 @@ import (
 )
 
 func main() {
+	fmt.Printf("%15s", "abc")
+
 	j := 0x20000
 
 	fmt.Printf("十进制：%d，十六进制：%x，二进制：%b\n", j, j, j)

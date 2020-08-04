@@ -6,12 +6,12 @@ import (
 	"os/exec"
 )
 
-func main() {
-	fmt.Println("begin")
-	v := string(Runcmd("git describe --abbrev=0 --tags", true))
-	fmt.Println("tag:", v)
-	fmt.Println("end")
-}
+// func main() {
+// 	fmt.Println("begin")
+// 	v := string(Runcmd("git describe --abbrev=0 --tags", true))
+// 	fmt.Println("tag:", v)
+// 	fmt.Println("end")
+// }
 
 func Runcmd(cmd string, shell bool) []byte {
 	if shell {

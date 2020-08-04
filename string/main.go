@@ -1,20 +1,22 @@
 package main
 
 import (
-	"bytes"
+	"fmt"
 )
 
 func main() {
 	bytes1 := []byte("5c3ed3444844b428a65dc0b6")
 	println(len(bytes1))
 
-	bytes1 = []byte("gc3ed3444844b428a65dc0b6")
-	println(len(bytes1))
+	buffer2 := []byte("5c3ed3444844b428a65dc0b61")
+	if string(bytes1) == string(buffer2) && string(bytes1) == string(buffer2) {
+		fmt.Println("equal")		
+	}
 
-	s := "Go语言"
-	println(s[2:5])
-	println(s[2:6])
+	// bytes1 = []byte("gc3ed3444844b428a65dc0b6")
+	// println(len(bytes1))
 
-	var buffer bytes.Buffer
-
+	// s := "Go语言"
+	// println(s[2:5])
+	// println(s[2:6])
 }

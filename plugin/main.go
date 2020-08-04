@@ -3,17 +3,18 @@ package main
 import (
 	"fmt"
 	"plugin"
+
 	"github.com/kyl2016/Play-With-Golang/plugin/dataStruct"
 )
 
-func init(){
+func init() {
 	fmt.Println("main init")
 }
 
 func main() {
 	fmt.Println("main")
 
-	p, err := plugin.Open("./pkg/pkg.so")
+	p, err := plugin.Open("pkg.so")
 	if err != nil {
 		panic(err)
 	}
@@ -36,9 +37,9 @@ func main() {
 		panic(err)
 	}
 
-	person := dataStruct.Person{ID:1, Name:"Kitty", Age:12}
+	person := dataStruct.Person{ID: 1, Name: "Kitty", Age: 12}
 	update.(func(_p *dataStruct.Person))(&person)
 	fmt.Println(person.Age)
 }
 
-// go run main.go
+// go run cpu.go

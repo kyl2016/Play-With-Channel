@@ -28,8 +28,7 @@ func main() {
 	if err := pprof.WriteHeapProfile(memf); err != nil {
 		log.Fatal("could not write memory profile:", err)
 	}
-	memf.Close()
-
+	defer memf.Close()
 
 	ctx, _ := context.WithTimeout(context.Background(), time.Second*5)
 	test22(ctx)

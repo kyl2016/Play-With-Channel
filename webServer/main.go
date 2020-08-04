@@ -3,6 +3,7 @@ package main
 import (
 	"flag"
 	"html/template"
+	"io/ioutil"
 	"log"
 	"net/http"
 )
@@ -14,10 +15,19 @@ var templ = template.Must(template.New("qr").Parse(templateStr))
 func main() {
 	flag.Parse()
 
-	http.Handle("/", http.HandlerFunc(QR))
+	http.Handle("/", http.HandlerFunc(ReadData))
 	err := http.ListenAndServe(*addr, nil)
 	if err != nil {
 		log.Fatal("ListenAndServe:", err)
+	}
+}
+
+func ReadData(w http.ResponseWriter, req *http.Request) {
+	buf, err := ioutil.ReadFile("./data.pb")
+	if err != nil {
+		w.Write([]byte("read data.pb error"))
+	} else {
+		w.Write(buf)
 	}
 }
 

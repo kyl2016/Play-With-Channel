@@ -81,3 +81,6 @@ for i := range a {
 2. The range expression gets evaluated once before the loop starts by assigning to a variable.
 3. You can delete or add values to a map while iterating. Add may or may not be visible in the loop.
 
+## refers
+
+[go101](https://go101.org/article/101.html)

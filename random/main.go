@@ -12,4 +12,15 @@ func main() {
 		x := rand.Intn(100)
 		fmt.Println(x)
 	}
+
+	r := rand.New(rand.NewSource(50))
+	fmt.Println(r.Int31())
+	fmt.Println(r.Float32())
+	fmt.Println(r.Int31n(10))
+	fmt.Println(r.Int31n(100))
+	fmt.Println(r.Int31n(100))
+
+	fmt.Println(rand.Int31n(50))
+	fmt.Println(rand.Int31n(50))
+	fmt.Println(rand.Int31n(50))
 }
