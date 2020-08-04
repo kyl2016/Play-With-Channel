@@ -15,6 +15,7 @@ require (
 	github.com/go-delve/delve v1.3.2 // indirect
 	github.com/go-errors/errors v1.0.1
 	github.com/gogo/protobuf v1.3.1 // indirect
+	github.com/golang/protobuf v1.3.3
 	github.com/google/gops v0.3.10
 	github.com/google/uuid v1.1.1 // indirect
 	github.com/gorilla/mux v1.7.4
@@ -36,5 +37,5 @@ require (
 	go.uber.org/zap v1.14.1 // indirect
 	golang.org/x/arch v0.0.0-20190927153633-4e8777c89be4 // indirect
 	golang.org/x/crypto v0.0.0-20191029031824-8986dd9e96cf // indirect
-	google.golang.org/grpc v1.28.0 // indirect
+	google.golang.org/grpc v1.28.0
 )
