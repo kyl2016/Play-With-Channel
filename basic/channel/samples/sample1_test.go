@@ -7,7 +7,7 @@ import (
 )
 
 // after close(ch), set ch=nil to forbidden receive false
-func ExampleClose(t *testing.T) {
+func TestClose(t *testing.T) {
 	ch := make(chan int, 1)
 	ch2 := make(chan int)
 	go func() {
@@ -28,4 +28,11 @@ func ExampleClose(t *testing.T) {
 
 	// output:
 	// 1 true
+}
+
+func TestSendToNilChan(t *testing.T) {
+	var ch chan struct{}
+	ch = nil
+	ch <- struct{}{}
+	// fatal error: all goroutines are asleep - deadlock!
 }

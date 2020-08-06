@@ -64,3 +64,42 @@ func TestBatch_Add_Small_Count(t *testing.T) {
 
 	fmt.Printf("concurrent=%d, amount per goroutine=%d, elaspsed: %fs, processed: %d\n", concurrent, amount, time.Since(start).Seconds(), count)
 }
+
+func TestBatch_StopBeforeAdd(t *testing.T) {
+	b = NewBatch(100, time.Second, func(i []interface{}) error {
+		fmt.Println(i)
+		time.Sleep(time.Millisecond)
+		return nil
+	}, 1)
+	for i := 0; i < 10; i++ {
+		b.Add(i)
+		b.Stop()
+	}
+}
+
+func TestBatch_ConcurrentStop(t *testing.T) {
+	b.Add(1)
+
+	wg := sync.WaitGroup{}
+	for i := 0; i < 200; i++ {
+		wg.Add(1)
+		go func() {
+			b.Stop()
+			wg.Done()
+		}()
+	}
+	wg.Wait()
+}
+
+func TestBatch_AddSlowly(t *testing.T) {
+	b = NewBatch(100, time.Second, func(i []interface{}) error {
+		fmt.Println(i)
+		time.Sleep(time.Millisecond)
+		return nil
+	}, 1)
+	for i := 0; i < 10; i++ {
+		b.Add(i)
+		time.Sleep(time.Second)
+	}
+	b.Stop()
+}
