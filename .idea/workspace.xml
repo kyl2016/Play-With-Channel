@@ -20,8 +20,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cae54569-b94d-4e34-abbc-1f0a69cd72ad" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic/channel/samples/sample1_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batch/main.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batch/src/batch.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/batch/src/batch_test.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forward/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/slice/samples/sample_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/slice/samples/sample_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic/slice/samples/sample_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slice/samples/sample_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +63,7 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/json/sample/base_test.go" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/basic/json/sample/base_test.go" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectId" id="1QSJ3H1UytWExmzwoUUtbVgsXZO" />
   <component name="ProjectLevelVcsManager">
@@ -97,11 +103,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/basic" />
       <recent name="$PROJECT_DIR$/slice/samples" />
       <recent name="$PROJECT_DIR$/concurrency/c10k/client" />
       <recent name="$PROJECT_DIR$/concurrency/c10k/server" />
-      <recent name="$PROJECT_DIR$/channel/multiplexing/server" />
-      <recent name="$PROJECT_DIR$/pkg/etcd/test" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/cgo/callback/c_transfer_data_to_go" />
@@ -111,7 +117,7 @@
       <recent name="$PROJECT_DIR$/pkg/mkl/李小龙" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Test.TestRemove2 in github.com/kyl2016/Play-With-Golang/slice/samples">
+  <component name="RunManager" selected="Go Test.TestBatch_Add in github.com/kyl2016/Play-With-Golang/batch/src">
     <configuration name="go build github.com/kyl2016/Play-With-Golang/build" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="Play-With-Golang" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -123,37 +129,37 @@
       <directory value="$PROJECT_DIR$/build" />
       <method v="2" />
     </configuration>
-    <configuration name="Test3 in github.com/kyl2016/Play-With-Golang/slice/samples" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="ExampleClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Play-With-Golang" />
-      <working_directory value="$PROJECT_DIR$/slice/samples" />
+      <working_directory value="$PROJECT_DIR$/basic/channel/samples" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/kyl2016/Play-With-Golang/slice/samples" />
+      <package value="github.com/kyl2016/Play-With-Golang/basic/channel/samples" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^Test3$" />
+      <pattern value="^ExampleClose$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCopy in github.com/kyl2016/Play-With-Golang/slice/samples" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestBatch_Add in github.com/kyl2016/Play-With-Golang/batch/src" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Play-With-Golang" />
-      <working_directory value="$PROJECT_DIR$/slice/samples" />
+      <working_directory value="$PROJECT_DIR$/batch/src" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/kyl2016/Play-With-Golang/slice/samples" />
+      <package value="github.com/kyl2016/Play-With-Golang/batch/src" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestCopy$" />
+      <pattern value="^TestBatch_Add$" />
       <method v="2" />
     </configuration>
-    <configuration name="TestCopy1 in github.com/kyl2016/Play-With-Golang/slice/samples" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+    <configuration name="TestClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Play-With-Golang" />
-      <working_directory value="$PROJECT_DIR$/slice/samples" />
+      <working_directory value="$PROJECT_DIR$/basic/channel/samples" />
       <framework value="gotest" />
       <kind value="PACKAGE" />
-      <package value="github.com/kyl2016/Play-With-Golang/slice/samples" />
+      <package value="github.com/kyl2016/Play-With-Golang/basic/channel/samples" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestCopy1$" />
+      <pattern value="^TestClose$" />
       <method v="2" />
     </configuration>
     <configuration name="TestRemove in github.com/kyl2016/Play-With-Golang/slice/samples" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -180,19 +186,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build github.com/kyl2016/Play-With-Golang/build" />
-      <item itemvalue="Go Test.Test3 in github.com/kyl2016/Play-With-Golang/slice/samples" />
-      <item itemvalue="Go Test.TestCopy in github.com/kyl2016/Play-With-Golang/slice/samples" />
-      <item itemvalue="Go Test.TestCopy1 in github.com/kyl2016/Play-With-Golang/slice/samples" />
       <item itemvalue="Go Test.TestRemove in github.com/kyl2016/Play-With-Golang/slice/samples" />
       <item itemvalue="Go Test.TestRemove2 in github.com/kyl2016/Play-With-Golang/slice/samples" />
+      <item itemvalue="Go Test.ExampleClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" />
+      <item itemvalue="Go Test.TestClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" />
+      <item itemvalue="Go Test.TestBatch_Add in github.com/kyl2016/Play-With-Golang/batch/src" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Test.TestBatch_Add in github.com/kyl2016/Play-With-Golang/batch/src" />
+        <item itemvalue="Go Test.ExampleClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" />
+        <item itemvalue="Go Test.TestClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" />
         <item itemvalue="Go Test.TestRemove2 in github.com/kyl2016/Play-With-Golang/slice/samples" />
         <item itemvalue="Go Test.TestRemove in github.com/kyl2016/Play-With-Golang/slice/samples" />
-        <item itemvalue="Go Test.TestCopy1 in github.com/kyl2016/Play-With-Golang/slice/samples" />
-        <item itemvalue="Go Test.TestCopy in github.com/kyl2016/Play-With-Golang/slice/samples" />
-        <item itemvalue="Go Test.Test3 in github.com/kyl2016/Play-With-Golang/slice/samples" />
       </list>
     </recent_temporary>
   </component>
@@ -256,78 +262,86 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="643" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1591152542158" />
-    <state width="1878" height="363" key="GridCell.Tab.0.bottom" timestamp="1596540212010">
+    <state width="1878" height="363" key="GridCell.Tab.0.bottom" timestamp="1596703134511">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.0.bottom/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596540212010" />
+    <state width="1878" height="363" key="GridCell.Tab.0.bottom/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134511" />
     <state width="1238" height="388" key="GridCell.Tab.0.bottom/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452532" />
-    <state width="1238" height="130" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594695365145" />
+    <state width="1238" height="238" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1596598185647" />
     <state width="1238" height="300" key="GridCell.Tab.0.bottom/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068401" />
+    <state width="1878" height="123" key="GridCell.Tab.0.bottom/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479107" />
     <state width="1238" height="160" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1591430798554" />
-    <state width="1878" height="363" key="GridCell.Tab.0.center" timestamp="1596540212008">
+    <state width="1878" height="363" key="GridCell.Tab.0.center" timestamp="1596703134508">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.0.center/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596540212008" />
+    <state width="1878" height="363" key="GridCell.Tab.0.center/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134508" />
     <state width="1238" height="388" key="GridCell.Tab.0.center/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452522" />
-    <state width="1238" height="130" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1594695365144" />
+    <state width="1238" height="238" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1596598185646" />
     <state width="1238" height="300" key="GridCell.Tab.0.center/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068397" />
+    <state width="1878" height="123" key="GridCell.Tab.0.center/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479106" />
     <state width="1238" height="160" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1591430798552" />
-    <state width="1878" height="363" key="GridCell.Tab.0.left" timestamp="1596540212007">
+    <state width="1878" height="363" key="GridCell.Tab.0.left" timestamp="1596703134505">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.0.left/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596540212007" />
+    <state width="1878" height="363" key="GridCell.Tab.0.left/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134505" />
     <state width="1238" height="388" key="GridCell.Tab.0.left/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452486" />
-    <state width="1238" height="130" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1594695365142" />
+    <state width="1238" height="238" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1596598185644" />
     <state width="1238" height="300" key="GridCell.Tab.0.left/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068395" />
+    <state width="1878" height="123" key="GridCell.Tab.0.left/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479105" />
     <state width="1238" height="160" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1591430798551" />
-    <state width="1878" height="363" key="GridCell.Tab.0.right" timestamp="1596540212008">
+    <state width="1878" height="363" key="GridCell.Tab.0.right" timestamp="1596703134510">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.0.right/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596540212008" />
+    <state width="1878" height="363" key="GridCell.Tab.0.right/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134510" />
     <state width="1238" height="388" key="GridCell.Tab.0.right/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452527" />
-    <state width="1238" height="130" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1594695365145" />
+    <state width="1238" height="238" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1596598185646" />
     <state width="1238" height="300" key="GridCell.Tab.0.right/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068400" />
+    <state width="1878" height="123" key="GridCell.Tab.0.right/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479106" />
     <state width="1238" height="160" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1591430798553" />
-    <state width="1878" height="363" key="GridCell.Tab.1.bottom" timestamp="1596540203608">
+    <state width="1878" height="363" key="GridCell.Tab.1.bottom" timestamp="1596703134519">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.1.bottom/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596540203608" />
+    <state width="1878" height="363" key="GridCell.Tab.1.bottom/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134519" />
     <state width="1238" height="388" key="GridCell.Tab.1.bottom/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452538" />
-    <state width="1238" height="130" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1594695365147" />
+    <state width="1238" height="238" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1596598185498" />
     <state width="1238" height="300" key="GridCell.Tab.1.bottom/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068430" />
+    <state width="1878" height="123" key="GridCell.Tab.1.bottom/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479111" />
     <state width="1238" height="160" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1591430798557" />
-    <state width="1878" height="363" key="GridCell.Tab.1.center" timestamp="1596540203606">
+    <state width="1878" height="363" key="GridCell.Tab.1.center" timestamp="1596703134514">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.1.center/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596540203606" />
+    <state width="1878" height="363" key="GridCell.Tab.1.center/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134514" />
     <state width="1238" height="388" key="GridCell.Tab.1.center/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452534" />
-    <state width="1238" height="130" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1594695365146" />
+    <state width="1238" height="238" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1596598185497" />
     <state width="1238" height="300" key="GridCell.Tab.1.center/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068407" />
+    <state width="1878" height="123" key="GridCell.Tab.1.center/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479109" />
     <state width="1238" height="160" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1591430798555" />
-    <state width="1878" height="363" key="GridCell.Tab.1.left" timestamp="1596540203605">
+    <state width="1878" height="363" key="GridCell.Tab.1.left" timestamp="1596703134513">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.1.left/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596540203605" />
+    <state width="1878" height="363" key="GridCell.Tab.1.left/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134513" />
     <state width="1238" height="388" key="GridCell.Tab.1.left/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452533" />
-    <state width="1238" height="130" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1594695365146" />
+    <state width="1238" height="238" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1596598185496" />
     <state width="1238" height="300" key="GridCell.Tab.1.left/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068403" />
+    <state width="1878" height="123" key="GridCell.Tab.1.left/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479108" />
     <state width="1238" height="160" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1591430798555" />
-    <state width="1878" height="363" key="GridCell.Tab.1.right" timestamp="1596540203607">
+    <state width="1878" height="363" key="GridCell.Tab.1.right" timestamp="1596703134517">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.1.right/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596540203607" />
+    <state width="1878" height="363" key="GridCell.Tab.1.right/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134517" />
     <state width="1238" height="388" key="GridCell.Tab.1.right/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452536" />
-    <state width="1238" height="130" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1594695365147" />
+    <state width="1238" height="238" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1596598185497" />
     <state width="1238" height="300" key="GridCell.Tab.1.right/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068426" />
+    <state width="1878" height="123" key="GridCell.Tab.1.right/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479110" />
     <state width="1238" height="160" key="GridCell.Tab.1.right/0.23.1280.777@0.23.1280.777" timestamp="1591430798556" />
     <state x="428" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1592214032860">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="428" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1280.800@0.0.1280.800" timestamp="1592214032860" />
-    <state x="390" y="203" width="568" height="499" key="find.popup" timestamp="1591152043527">
+    <state x="390" y="203" width="568" height="499" key="find.popup" timestamp="1596629335877">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
-    <state x="390" y="203" width="568" height="499" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1591152043527" />
+    <state x="390" y="203" width="568" height="499" key="find.popup/0.0.1280.800@0.0.1280.800" timestamp="1596629335877" />
     <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1594706481614">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -337,27 +351,27 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/test/t_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/test/t_test.go</url>
           <line>25</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/test/t_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/test/t_test.go</url>
           <line>20</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/container/list/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/container/list/main.go</url>
           <line>15</line>
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/link/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/link/main.go</url>
           <line>14</line>
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/link/linker/link.go</url>
+          <url>file://$PROJECT_DIR$/basic/link/linker/link.go</url>
           <line>14</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>
@@ -367,182 +381,182 @@
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>18</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>35</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>16</line>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>34</line>
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>37</line>
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>50</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>23</line>
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>38</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>46</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>52</line>
           <option name="timeStamp" value="25" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>53</line>
           <option name="timeStamp" value="26" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/main.go</url>
           <line>54</line>
           <option name="timeStamp" value="27" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/plugin/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/plugin/main.go</url>
           <line>10</line>
           <option name="timeStamp" value="29" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/plugin/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/plugin/main.go</url>
           <line>13</line>
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/plugin/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/plugin/main.go</url>
           <line>8</line>
           <option name="timeStamp" value="31" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/plugin/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/plugin/main.go</url>
           <line>20</line>
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/pipeline/v0.3/pipeline.go</url>
+          <url>file://$PROJECT_DIR$/basic/pipeline/v0.3/pipeline.go</url>
           <line>52</line>
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/pipeline/v0.3/pipeline_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/pipeline/v0.3/pipeline_test.go</url>
           <line>18</line>
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/print/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/print/main.go</url>
           <line>26</line>
           <option name="timeStamp" value="48" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/interface/warn/warn_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/interface/warn/warn_test.go</url>
           <line>32</line>
           <option name="timeStamp" value="49" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/simple.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/simple.go</url>
           <line>30</line>
           <option name="timeStamp" value="50" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/simple.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/simple.go</url>
           <line>32</line>
           <option name="timeStamp" value="51" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/simple.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/simple.go</url>
           <line>34</line>
           <option name="timeStamp" value="52" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/simple.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/simple.go</url>
           <line>28</line>
           <option name="timeStamp" value="53" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/simple.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/simple.go</url>
           <line>15</line>
           <option name="timeStamp" value="54" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/simple.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/simple.go</url>
           <line>19</line>
           <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/sync/condition/simple.go</url>
+          <url>file://$PROJECT_DIR$/basic/sync/condition/simple.go</url>
           <line>17</line>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/image/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/image/main.go</url>
           <line>46</line>
           <option name="timeStamp" value="57" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/image/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/image/main.go</url>
           <line>41</line>
           <option name="timeStamp" value="58" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/image/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/image/main.go</url>
           <line>52</line>
           <option name="timeStamp" value="59" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/image/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/image/main.go</url>
           <line>51</line>
           <option name="timeStamp" value="60" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/defer/callFunc.go</url>
+          <url>file://$PROJECT_DIR$/basic/defer/callFunc.go</url>
           <line>13</line>
           <option name="timeStamp" value="62" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/defer/callFunc.go</url>
+          <url>file://$PROJECT_DIR$/basic/defer/callFunc.go</url>
           <line>17</line>
           <option name="timeStamp" value="63" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/panic/multiGoroutines.go</url>
+          <url>file://$PROJECT_DIR$/basic/panic/multiGoroutines.go</url>
           <line>11</line>
           <option name="timeStamp" value="64" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/unicode/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/unicode/main.go</url>
           <line>39</line>
           <option name="timeStamp" value="66" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/unicode/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/unicode/main.go</url>
           <line>42</line>
           <option name="timeStamp" value="68" />
         </line-breakpoint>
@@ -552,12 +566,12 @@
           <option name="timeStamp" value="69" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/file/skipPageCache/readDirect.go</url>
+          <url>file://$PROJECT_DIR$/basic/file/skipPageCache/readDirect.go</url>
           <line>186</line>
           <option name="timeStamp" value="80" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/file/skipPageCache/readDirect.go</url>
+          <url>file://$PROJECT_DIR$/basic/file/skipPageCache/readDirect.go</url>
           <line>188</line>
           <option name="timeStamp" value="82" />
         </line-breakpoint>
@@ -572,37 +586,37 @@
           <option name="timeStamp" value="84" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/temp/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/temp/main.go</url>
           <line>23</line>
           <option name="timeStamp" value="86" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/temp/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/temp/main.go</url>
           <line>25</line>
           <option name="timeStamp" value="87" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/http/openBrowser.go</url>
+          <url>file://$PROJECT_DIR$/basic/http/openBrowser.go</url>
           <line>19</line>
           <option name="timeStamp" value="92" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/http/openBrowser.go</url>
+          <url>file://$PROJECT_DIR$/basic/http/openBrowser.go</url>
           <line>21</line>
           <option name="timeStamp" value="93" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/shareMemory/reader.go</url>
+          <url>file://$PROJECT_DIR$/basic/shareMemory/reader.go</url>
           <line>40</line>
           <option name="timeStamp" value="94" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/shareMemory/reader.go</url>
+          <url>file://$PROJECT_DIR$/basic/shareMemory/reader.go</url>
           <line>33</line>
           <option name="timeStamp" value="95" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/shareMemory/reader.go</url>
+          <url>file://$PROJECT_DIR$/basic/shareMemory/reader.go</url>
           <line>30</line>
           <option name="timeStamp" value="97" />
         </line-breakpoint>
@@ -617,12 +631,12 @@
           <option name="timeStamp" value="102" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/json/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/json/main.go</url>
           <line>30</line>
           <option name="timeStamp" value="103" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/json/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/json/main.go</url>
           <line>28</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
@@ -637,27 +651,27 @@
           <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/main.go</url>
           <line>54</line>
           <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/main.go</url>
           <line>49</line>
           <option name="timeStamp" value="122" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/main.go</url>
           <line>30</line>
           <option name="timeStamp" value="123" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/json/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/json/main.go</url>
           <line>21</line>
           <option name="timeStamp" value="125" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/json/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/json/main.go</url>
           <line>15</line>
           <option name="timeStamp" value="127" />
         </line-breakpoint>
@@ -667,142 +681,142 @@
           <option name="timeStamp" value="128" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/heap/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/heap/main.go</url>
           <line>17</line>
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/main.go</url>
           <line>15</line>
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/interface/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/interface/main.go</url>
           <line>11</line>
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/file/basic.go</url>
+          <url>file://$PROJECT_DIR$/basic/file/basic.go</url>
           <line>70</line>
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/file/basic.go</url>
+          <url>file://$PROJECT_DIR$/basic/file/basic.go</url>
           <line>41</line>
           <option name="timeStamp" value="133" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/file/basic.go</url>
+          <url>file://$PROJECT_DIR$/basic/file/basic.go</url>
           <line>29</line>
           <option name="timeStamp" value="134" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/file/basic.go</url>
+          <url>file://$PROJECT_DIR$/basic/file/basic.go</url>
           <line>24</line>
           <option name="timeStamp" value="135" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/profiling/profile.go</url>
+          <url>file://$PROJECT_DIR$/basic/profiling/profile.go</url>
           <line>15</line>
           <option name="timeStamp" value="136" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/profiling/profile.go</url>
+          <url>file://$PROJECT_DIR$/basic/profiling/profile.go</url>
           <line>20</line>
           <option name="timeStamp" value="137" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/profiling/profile.go</url>
+          <url>file://$PROJECT_DIR$/basic/profiling/profile.go</url>
           <line>25</line>
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/profiling/profile.go</url>
+          <url>file://$PROJECT_DIR$/basic/profiling/profile.go</url>
           <line>28</line>
           <option name="timeStamp" value="139" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/cgo/c_write_data_to_go_pointer/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/cgo/c_write_data_to_go_pointer/main.go</url>
           <line>30</line>
           <option name="timeStamp" value="144" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/cgo/c_write_data_to_go_pointer/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/cgo/c_write_data_to_go_pointer/main.go</url>
           <line>28</line>
           <option name="timeStamp" value="146" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/cgo/callback/trigger_only/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/cgo/callback/trigger_only/main.go</url>
           <line>47</line>
           <option name="timeStamp" value="147" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/cgo/callback/trigger_only/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/cgo/callback/trigger_only/main.go</url>
           <line>42</line>
           <option name="timeStamp" value="148" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/image/crop/cutter_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/image/crop/cutter_test.go</url>
           <line>28</line>
           <option name="timeStamp" value="154" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/map/asPara_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/map/asPara_test.go</url>
           <line>19</line>
           <option name="timeStamp" value="155" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/timer_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/timer_test.go</url>
           <line>39</line>
           <option name="timeStamp" value="156" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/timer_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/timer_test.go</url>
           <line>20</line>
           <option name="timeStamp" value="157" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/timer_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/timer_test.go</url>
           <line>21</line>
           <option name="timeStamp" value="158" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/timer_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/timer_test.go</url>
           <line>30</line>
           <option name="timeStamp" value="159" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/timer_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/timer_test.go</url>
           <line>23</line>
           <option name="timeStamp" value="160" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/timer_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/timer_test.go</url>
           <line>33</line>
           <option name="timeStamp" value="161" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/timer_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/timer_test.go</url>
           <line>34</line>
           <option name="timeStamp" value="162" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/time/timer_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/time/timer_test.go</url>
           <line>12</line>
           <option name="timeStamp" value="163" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/print/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/print/main.go</url>
           <line>12</line>
           <option name="timeStamp" value="164" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/tools/dependencies/main.go</url>
+          <url>file://$PROJECT_DIR$/basic/tools/dependencies/main.go</url>
           <line>53</line>
           <option name="timeStamp" value="170" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="DlvLineBreakpoint">
-          <url>file://$PROJECT_DIR$/panic/sample/recover_test.go</url>
+          <url>file://$PROJECT_DIR$/basic/panic/sample/recover_test.go</url>
           <line>11</line>
           <option name="timeStamp" value="171" />
         </line-breakpoint>

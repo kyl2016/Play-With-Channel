@@ -46,6 +46,7 @@ func TestCopy1(t *testing.T) {
 	fmt.Println(len(s2), cap(s2), s2, c) // s2 的长度是 0，无法 copy
 }
 
+// slice copy array values
 func TestCopy2(t *testing.T) {
 	s1 := make([]int, 5)
 	var s2 = make([]int, 6)
