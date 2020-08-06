@@ -20,14 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cae54569-b94d-4e34-abbc-1f0a69cd72ad" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic/channel/samples/sample1_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/batch.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/batch/src/batch_test.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forward/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic/slice/samples/sample_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/basic/slice/samples/sample_test.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/src/batch.go" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/batch.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/batch/src/batch_test.go" beforeDir="false" afterPath="$PROJECT_DIR$/batch/src/batch_test.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +147,17 @@
       <pattern value="^TestBatch_Add$" />
       <method v="2" />
     </configuration>
+    <configuration name="TestBatch_Add_Small_Count in github.com/kyl2016/Play-With-Golang/batch/src" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
+      <module name="Play-With-Golang" />
+      <working_directory value="$PROJECT_DIR$/batch/src" />
+      <framework value="gotest" />
+      <kind value="PACKAGE" />
+      <package value="github.com/kyl2016/Play-With-Golang/batch/src" />
+      <directory value="$PROJECT_DIR$" />
+      <filePath value="$PROJECT_DIR$" />
+      <pattern value="^TestBatch_Add_Small_Count$" />
+      <method v="2" />
+    </configuration>
     <configuration name="TestClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
       <module name="Play-With-Golang" />
       <working_directory value="$PROJECT_DIR$/basic/channel/samples" />
@@ -160,17 +167,6 @@
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$" />
       <pattern value="^TestClose$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestRemove in github.com/kyl2016/Play-With-Golang/slice/samples" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
-      <module name="Play-With-Golang" />
-      <working_directory value="$PROJECT_DIR$/slice/samples" />
-      <framework value="gotest" />
-      <kind value="PACKAGE" />
-      <package value="github.com/kyl2016/Play-With-Golang/slice/samples" />
-      <directory value="$PROJECT_DIR$" />
-      <filePath value="$PROJECT_DIR$" />
-      <pattern value="^TestRemove$" />
       <method v="2" />
     </configuration>
     <configuration name="TestRemove2 in github.com/kyl2016/Play-With-Golang/slice/samples" type="GoTestRunConfiguration" factoryName="Go Test" temporary="true" nameIsGenerated="true">
@@ -186,19 +182,19 @@
     </configuration>
     <list>
       <item itemvalue="Go Build.go build github.com/kyl2016/Play-With-Golang/build" />
-      <item itemvalue="Go Test.TestRemove in github.com/kyl2016/Play-With-Golang/slice/samples" />
       <item itemvalue="Go Test.TestRemove2 in github.com/kyl2016/Play-With-Golang/slice/samples" />
       <item itemvalue="Go Test.ExampleClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" />
       <item itemvalue="Go Test.TestClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" />
       <item itemvalue="Go Test.TestBatch_Add in github.com/kyl2016/Play-With-Golang/batch/src" />
+      <item itemvalue="Go Test.TestBatch_Add_Small_Count in github.com/kyl2016/Play-With-Golang/batch/src" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Go Test.TestBatch_Add in github.com/kyl2016/Play-With-Golang/batch/src" />
+        <item itemvalue="Go Test.TestBatch_Add_Small_Count in github.com/kyl2016/Play-With-Golang/batch/src" />
         <item itemvalue="Go Test.ExampleClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" />
         <item itemvalue="Go Test.TestClose in github.com/kyl2016/Play-With-Golang/basic/channel/samples" />
         <item itemvalue="Go Test.TestRemove2 in github.com/kyl2016/Play-With-Golang/slice/samples" />
-        <item itemvalue="Go Test.TestRemove in github.com/kyl2016/Play-With-Golang/slice/samples" />
       </list>
     </recent_temporary>
   </component>
@@ -262,73 +258,73 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state width="643" height="466" key="DebuggerActiveHint/0.0.1280.800@0.0.1280.800" timestamp="1591152542158" />
-    <state width="1878" height="363" key="GridCell.Tab.0.bottom" timestamp="1596703134511">
+    <state width="1878" height="399" key="GridCell.Tab.0.bottom" timestamp="1596707946744">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.0.bottom/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134511" />
+    <state width="1878" height="399" key="GridCell.Tab.0.bottom/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596707946744" />
     <state width="1238" height="388" key="GridCell.Tab.0.bottom/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452532" />
     <state width="1238" height="238" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1596598185647" />
     <state width="1238" height="300" key="GridCell.Tab.0.bottom/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068401" />
     <state width="1878" height="123" key="GridCell.Tab.0.bottom/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479107" />
     <state width="1238" height="160" key="GridCell.Tab.0.bottom/0.23.1280.777@0.23.1280.777" timestamp="1591430798554" />
-    <state width="1878" height="363" key="GridCell.Tab.0.center" timestamp="1596703134508">
+    <state width="1878" height="399" key="GridCell.Tab.0.center" timestamp="1596707946743">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.0.center/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134508" />
+    <state width="1878" height="399" key="GridCell.Tab.0.center/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596707946743" />
     <state width="1238" height="388" key="GridCell.Tab.0.center/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452522" />
     <state width="1238" height="238" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1596598185646" />
     <state width="1238" height="300" key="GridCell.Tab.0.center/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068397" />
     <state width="1878" height="123" key="GridCell.Tab.0.center/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479106" />
     <state width="1238" height="160" key="GridCell.Tab.0.center/0.23.1280.777@0.23.1280.777" timestamp="1591430798552" />
-    <state width="1878" height="363" key="GridCell.Tab.0.left" timestamp="1596703134505">
+    <state width="1878" height="399" key="GridCell.Tab.0.left" timestamp="1596707946742">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.0.left/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134505" />
+    <state width="1878" height="399" key="GridCell.Tab.0.left/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596707946742" />
     <state width="1238" height="388" key="GridCell.Tab.0.left/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452486" />
     <state width="1238" height="238" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1596598185644" />
     <state width="1238" height="300" key="GridCell.Tab.0.left/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068395" />
     <state width="1878" height="123" key="GridCell.Tab.0.left/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479105" />
     <state width="1238" height="160" key="GridCell.Tab.0.left/0.23.1280.777@0.23.1280.777" timestamp="1591430798551" />
-    <state width="1878" height="363" key="GridCell.Tab.0.right" timestamp="1596703134510">
+    <state width="1878" height="399" key="GridCell.Tab.0.right" timestamp="1596707946744">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.0.right/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134510" />
+    <state width="1878" height="399" key="GridCell.Tab.0.right/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596707946744" />
     <state width="1238" height="388" key="GridCell.Tab.0.right/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452527" />
     <state width="1238" height="238" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1596598185646" />
     <state width="1238" height="300" key="GridCell.Tab.0.right/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068400" />
     <state width="1878" height="123" key="GridCell.Tab.0.right/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479106" />
     <state width="1238" height="160" key="GridCell.Tab.0.right/0.23.1280.777@0.23.1280.777" timestamp="1591430798553" />
-    <state width="1878" height="363" key="GridCell.Tab.1.bottom" timestamp="1596703134519">
+    <state width="1878" height="399" key="GridCell.Tab.1.bottom" timestamp="1596707946750">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.1.bottom/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134519" />
+    <state width="1878" height="399" key="GridCell.Tab.1.bottom/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596707946750" />
     <state width="1238" height="388" key="GridCell.Tab.1.bottom/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452538" />
     <state width="1238" height="238" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1596598185498" />
     <state width="1238" height="300" key="GridCell.Tab.1.bottom/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068430" />
     <state width="1878" height="123" key="GridCell.Tab.1.bottom/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479111" />
     <state width="1238" height="160" key="GridCell.Tab.1.bottom/0.23.1280.777@0.23.1280.777" timestamp="1591430798557" />
-    <state width="1878" height="363" key="GridCell.Tab.1.center" timestamp="1596703134514">
+    <state width="1878" height="399" key="GridCell.Tab.1.center" timestamp="1596707946747">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.1.center/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134514" />
+    <state width="1878" height="399" key="GridCell.Tab.1.center/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596707946747" />
     <state width="1238" height="388" key="GridCell.Tab.1.center/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452534" />
     <state width="1238" height="238" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1596598185497" />
     <state width="1238" height="300" key="GridCell.Tab.1.center/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068407" />
     <state width="1878" height="123" key="GridCell.Tab.1.center/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479109" />
     <state width="1238" height="160" key="GridCell.Tab.1.center/0.23.1280.777@0.23.1280.777" timestamp="1591430798555" />
-    <state width="1878" height="363" key="GridCell.Tab.1.left" timestamp="1596703134513">
+    <state width="1878" height="399" key="GridCell.Tab.1.left" timestamp="1596707946746">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.1.left/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134513" />
+    <state width="1878" height="399" key="GridCell.Tab.1.left/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596707946746" />
     <state width="1238" height="388" key="GridCell.Tab.1.left/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452533" />
     <state width="1238" height="238" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1596598185496" />
     <state width="1238" height="300" key="GridCell.Tab.1.left/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068403" />
     <state width="1878" height="123" key="GridCell.Tab.1.left/0.23.1280.777/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596701479108" />
     <state width="1238" height="160" key="GridCell.Tab.1.left/0.23.1280.777@0.23.1280.777" timestamp="1591430798555" />
-    <state width="1878" height="363" key="GridCell.Tab.1.right" timestamp="1596703134517">
+    <state width="1878" height="399" key="GridCell.Tab.1.right" timestamp="1596707946748">
       <screen x="-335" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="363" key="GridCell.Tab.1.right/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596703134517" />
+    <state width="1878" height="399" key="GridCell.Tab.1.right/0.0.1280.800/-335.-1080.1920.1080@-335.-1080.1920.1080" timestamp="1596707946748" />
     <state width="1238" height="388" key="GridCell.Tab.1.right/0.0.1280.800/-335.-1080.1920.1080@0.0.1280.800" timestamp="1596078452536" />
     <state width="1238" height="238" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1596598185497" />
     <state width="1238" height="300" key="GridCell.Tab.1.right/0.23.1280.777/-335.-1057.1920.1057@0.23.1280.777" timestamp="1596078068426" />
