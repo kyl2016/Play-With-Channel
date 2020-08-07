@@ -10,11 +10,11 @@ import (
 )
 
 var count int32 = 0
-var b = NewBatch(100, time.Second, func(i []interface{}) error {
-	atomic.AddInt32(&count, int32(len(i)))
+var b = NewBatchImp(100, time.Second, 100, func(i interface{}) error {
+	atomic.AddInt32(&count, int32(len(i.([]interface{}))))
 	time.Sleep(time.Millisecond)
 	return nil
-}, 100)
+})
 
 func TestBatch_Add(t *testing.T) {
 	concurrent := runtime.NumCPU()
@@ -66,11 +66,11 @@ func TestBatch_Add_Small_Count(t *testing.T) {
 }
 
 func TestBatch_StopBeforeAdd(t *testing.T) {
-	b = NewBatch(100, time.Second, func(i []interface{}) error {
+	b = NewBatchImp(100, time.Second, 10, func(i interface{}) error {
 		fmt.Println(i)
 		time.Sleep(time.Millisecond)
 		return nil
-	}, 1)
+	})
 	for i := 0; i < 10; i++ {
 		b.Add(i)
 		b.Stop()
@@ -92,11 +92,11 @@ func TestBatch_ConcurrentStop(t *testing.T) {
 }
 
 func TestBatch_AddSlowly(t *testing.T) {
-	b = NewBatch(100, time.Second, func(i []interface{}) error {
+	b = NewBatchImp(100, time.Second, 1, func(i interface{}) error {
 		fmt.Println(i)
 		time.Sleep(time.Millisecond)
 		return nil
-	}, 1)
+	})
 	for i := 0; i < 10; i++ {
 		b.Add(i)
 		time.Sleep(time.Second)
