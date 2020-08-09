@@ -59,7 +59,6 @@ func startBatching(pollingInterval time.Duration, batchCount int, processor *Bas
 			case item, ok := <-inputCh:
 				if !ok {
 					addToBatch()
-					processor.Stop()
 					return
 				}
 				batchItems = append(batchItems, item)
