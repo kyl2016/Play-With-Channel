@@ -1,6 +1,6 @@
 package main
 
-import "github.com/sirupsen/logrus"
+import "github.com/Sirupsen/logrus"
 
 func main() {
 	ch := make(chan int, 1)

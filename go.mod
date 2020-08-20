@@ -29,7 +29,6 @@ require (
 	github.com/oliamb/cutter v0.2.2
 	github.com/peterh/liner v1.1.0 // indirect
 	github.com/robfig/cron v1.2.0 // indirect
-	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/spf13/cobra v0.0.5 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	go.etcd.io/etcd v3.3.19+incompatible
@@ -37,6 +36,7 @@ require (
 	go.uber.org/zap v1.14.1 // indirect
 	golang.org/x/arch v0.0.0-20190927153633-4e8777c89be4 // indirect
 	golang.org/x/crypto v0.0.0-20191029031824-8986dd9e96cf // indirect
+	golang.org/x/text v0.3.2
 	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
 	google.golang.org/grpc v1.28.0
 )

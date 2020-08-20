@@ -266,3 +266,5 @@ func ExampleKV_do() {
 		}
 	}
 }
+
+// go test -bench=.

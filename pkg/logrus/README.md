@@ -14,7 +14,7 @@ an optional hash with extra global fields. These fields will be included in all 
 package main
 
 import (
-    log "github.com/sirupsen/logrus"
+    log "github.com/Sirupsen/logrus"
     "github.com/gemnasium/logrus-graylog-hook/v3"
     )
 

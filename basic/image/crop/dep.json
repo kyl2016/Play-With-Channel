@@ -490,12 +490,12 @@
   "GoMod": "/Users/kang/go/pkg/mod/cache/download/github.com/russross/blackfriday/@v/v1.5.2.mod"
 }
 {
-  "Path": "github.com/sirupsen/logrus",
+  "Path": "github.com/Sirupsen/logrus",
   "Version": "v1.4.2",
   "Time": "2019-05-18T10:38:48Z",
   "Indirect": true,
-  "Dir": "/Users/kang/go/pkg/mod/github.com/sirupsen/logrus@v1.4.2",
-  "GoMod": "/Users/kang/go/pkg/mod/cache/download/github.com/sirupsen/logrus/@v/v1.4.2.mod"
+  "Dir": "/Users/kang/go/pkg/mod/github.com/Sirupsen/logrus@v1.4.2",
+  "GoMod": "/Users/kang/go/pkg/mod/cache/download/github.com/Sirupsen/logrus/@v/v1.4.2.mod"
 }
 {
   "Path": "github.com/spf13/afero",
