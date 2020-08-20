@@ -78,3 +78,22 @@ func TestMQ_Pub(t *testing.T) {
 		fmt.Println(time.Since(start), count)
 	}
 }
+
+func TestMQ_Unsub_WithoutSub(t *testing.T) {
+	mq := NewMQ()
+	mq.Unsub("1")
+}
+
+func TestMQ_Sub_After_Pub(t *testing.T) {
+	mq := NewMQ()
+	mq.Pub("t1", 1)
+	_, ch := mq.Sub("t1")
+	go func() {
+		for i := range ch {
+			if i != 2 {
+				t.Error("should be 2")
+			}
+		}
+	}()
+	mq.Pub("t1", 2)
+}

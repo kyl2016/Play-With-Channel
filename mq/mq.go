@@ -17,11 +17,12 @@ func NewMQ() *MQ {
 }
 
 // Sub multi types data to channel with id
+// 订阅前的消息不会收到
 func (mq *MQ) Sub(types ...string) (id string, c <-chan interface{}) {
 	mq.locker.Lock()
 	defer mq.locker.Unlock()
 
-	id := uuid.New().String()
+	id = uuid.New().String()
 	ch := make(chan interface{}, 100)
 	mq.idAndCh.Store(id, ch)
 	for _, t := range types {
@@ -65,6 +66,8 @@ func (mq *MQ) Unsub(id string, types ...string) {
 }
 
 // Pub data with type
+// 如果订阅方的 channel 已满，会阻塞
+// 如果没有订阅方，则将数据丢掉
 func (mq *MQ) Pub(t string, data interface{}) {
 	mq.locker.RLock()
 	defer mq.locker.RUnlock()
