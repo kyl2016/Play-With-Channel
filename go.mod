@@ -17,7 +17,7 @@ require (
 	github.com/gogo/protobuf v1.3.1 // indirect
 	github.com/golang/protobuf v1.3.3
 	github.com/google/gops v0.3.10
-	github.com/google/uuid v1.1.1 // indirect
+	github.com/google/uuid v1.1.1
 	github.com/gorilla/mux v1.7.4
 	github.com/hashicorp/consul/api v1.5.0 // indirect
 	github.com/hyperboloide/lk v0.0.0-20190531110207-c022f7a15f5a
