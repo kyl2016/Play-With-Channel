@@ -67,3 +67,17 @@ func main() {
 
 题目3：（[答案](sample4.go)）
 使用两个 goroutine 交替打印序列，一个 goroutinue 打印数字， 另外一个goroutine打印字母， 最终效果如下 12AB34CD56EF78GH910IJ 。
+
+## Remember  all transfer of value on the go channels happends with the copy of value.
+[copy value](./samples/copyValue/main.go)
+
+    	c <- g // 将 g 的值（user 的地址）复制到 c
+    	g = &user{name: "Ankur Anand", age: 100} // g的地址改变了，c 里面存储的是 g 之前的地址，g 再重新赋值与 c 无关了	
+    	
+如果，没有修改 g 的值（user 的地址），而是修改 user 的内容，由于 c 中的元素指向的相同的地址，因此内容也会变化
+
+        c := make(chan *user, 5)
+        c <- g
+        // modify g
+        modifyUser(g)
+参考：[修改属性值](./samples/editContent/editDirectly.go)

@@ -1,0 +1,5 @@
+version: "3"
+db:
+  url: localhost:8086
+  name: temp
+  table: test

@@ -28,7 +28,8 @@ require (
 	github.com/nfnt/resize v0.0.0-20180221191011-83c6a9932646 // indirect
 	github.com/oliamb/cutter v0.2.2
 	github.com/peterh/liner v1.1.0 // indirect
-	github.com/robfig/cron v1.2.0 // indirect
+	github.com/robfig/cron v1.2.0
+	github.com/robfig/cron/v3 v3.0.1
 	github.com/spf13/cobra v0.0.5 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
 	go.etcd.io/etcd v3.3.19+incompatible
@@ -39,4 +40,5 @@ require (
 	golang.org/x/text v0.3.2
 	google.golang.org/genproto v0.0.0-20190819201941-24fa4b261c55
 	google.golang.org/grpc v1.28.0
+	gopkg.in/yaml.v2 v2.2.8
 )
