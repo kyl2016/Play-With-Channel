@@ -1,0 +1,93 @@
+package main
+
+import (
+	"fmt"
+	"golang.org/x/text/encoding/simplifiedchinese"
+)
+
+func main() {
+	utf8Str := []byte("我是一只小小鸟")
+	gbk := isGBK(utf8Str)
+	utf8 := isUtf8(utf8Str)
+	fmt.Println("gbk:",gbk,"utf-8:",utf8)
+	fmt.Println(utf8Str) // 使用 UTF-8 编码，一个中文字符一般占 3 个 Byte
+
+	// 将中文字符串用 GBK 编码，然后解码
+	r, _ := simplifiedchinese.GBK.NewEncoder().Bytes(utf8Str)
+	fmt.Println(r) // 使用 GBK 编码，一个中文字符一般占 2 个 Byte
+	d, _ := simplifiedchinese.GBK.NewDecoder().Bytes(r)
+	fmt.Println(string(d))
+
+	// 如果直接解码 UTF-8 编码的字符串，会显示乱码
+	wrong, _ := simplifiedchinese.GBK.NewDecoder().Bytes(utf8Str)
+	fmt.Println(string(wrong))
+}
+
+func isGBK(data []byte) bool {
+	length := len(data)
+	var i int = 0
+	for i < length {
+		if data[i] <= 0x7f {
+			//编码0~127,只有一个字节的编码，兼容ASCII码
+			i++
+			continue
+		} else {
+			//大于127的使用双字节编码，落在gbk编码范围内的字符
+			if  data[i] >= 0x81 &&
+				data[i] <= 0xfe &&
+				data[i + 1] >= 0x40 &&
+				data[i + 1] <= 0xfe &&
+				data[i + 1] != 0xf7 {
+				i += 2
+				continue
+			} else {
+				return false
+			}
+		}
+	}
+	return true
+}
+
+func preNUm(data byte) int {
+	var mask byte = 0x80
+	var num int = 0
+	//8bit中首个0bit前有多少个1bits
+	for i:=0; i < 8; i++ {
+		if (data & mask) == mask {
+			num++
+			mask = mask >> 1
+		} else {
+			break
+		}
+	}
+	return num
+}
+func isUtf8(data []byte) bool {
+	i := 0
+	for i < len(data)  {
+		if (data[i] & 0x80) == 0x00 {
+			// 0XXX_XXXX
+			i++
+			continue
+		} else if num := preNUm(data[i]); num > 2 {
+			// 110X_XXXX 10XX_XXXX
+			// 1110_XXXX 10XX_XXXX 10XX_XXXX
+			// 1111_0XXX 10XX_XXXX 10XX_XXXX 10XX_XXXX
+			// 1111_10XX 10XX_XXXX 10XX_XXXX 10XX_XXXX 10XX_XXXX
+			// 1111_110X 10XX_XXXX 10XX_XXXX 10XX_XXXX 10XX_XXXX 10XX_XXXX
+			// preNUm() 返回首个字节的8个bits中首个0bit前面1bit的个数，该数量也是该字符所使用的字节数
+			i++
+			for j := 0; j < num - 1; j++ {
+				//判断后面的 num - 1 个字节是不是都是10开头
+				if (data[i] & 0xc0) != 0x80 {
+					return false
+				}
+				i++
+			}
+		} else  {
+			//其他情况说明不是utf-8
+			return false
+		}
+	}
+	return true
+}
