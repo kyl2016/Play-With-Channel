@@ -1,0 +1,39 @@
+{
+  "services": [
+    {
+      "id": "hello1",
+      "name": "hello",
+      "tags": [
+        "primary"
+      ],
+      "address": "172.17.0.9",
+      "port": 8888,
+      "checks": [
+        {
+          "http": "http://172.17.0.9:8080/ping",
+          "tls_skip_verify": false,
+          "method": "GET",
+          "interval": "10s",
+          "timeout": "1s"
+        }
+      ]
+    },{
+      "id": "hello2",
+      "name": "hello",
+      "tags": [
+        "second"
+      ],
+      "address": "172.17.0.9",
+      "port": 8889,
+      "checks": [
+        {
+          "http": "http://172.17.0.9:8080/ping",
+          "tls_skip_verify": false,
+          "method": "GET",
+          "interval": "10s",
+          "timeout": "1s"
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-package filo
+package main
 
 import "fmt"
 

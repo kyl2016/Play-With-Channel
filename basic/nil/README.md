@@ -2,6 +2,22 @@
 
 ## nil is a predeclared identifier in go.
 
+## cannot set 'nil' to string
+
+The nil constant has **no type** — so it cannot substitute for a string.
+
+    package main
+    
+    func main() {
+        temp := []string{}
+        temp = append(temp, nil)
+    }
+    
+    Output
+    
+    # command-line-arguments
+    C:\programs\file.go:8: cannot use nil as type string in append
+
 ## nil can represent zero values of many types
 
 - pointer types (including type-unsafe ones)

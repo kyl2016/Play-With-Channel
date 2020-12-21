@@ -1,0 +1,20 @@
+{
+  "datacenter": "dc1",
+  "data_dir": "D:\\Softwear\\consul_1.2.2_windows_amd64",
+  "ui": true,
+  "watches": [{
+    "type": "service", ###监视类型
+    "service": "consul-demo-02", ###要监视服务名称
+    "handler_type": "http",###回调类型
+    "http_handler_config": {
+      "path": "http://localhost:9609/notice/wechat/services",###回调通知地址
+      "method": "POST",###回调请求方式
+      "header": {###header参数
+      "name": ["consul-demo-02"],   ###服务名称  为了确定知道
+      "environmental":["线上环境"],  ###  所在环境
+      "member":["2"] ###服务实例数量
+    }
+  }
+  }
+  ]
+}
